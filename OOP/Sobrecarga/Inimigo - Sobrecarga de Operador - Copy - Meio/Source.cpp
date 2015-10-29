@@ -31,7 +31,7 @@ int main()
 
 	std::cout << "Nome inimigo 1: " << inimigo1.GetNome() << std::endl;
 	std::cout << "Nome inimigo 2: " << inimigo2.GetNome() << std::endl;
-
+	 
 
 	delete buffer;
 	return 0;
