@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Poliforfismo - 01 - Inicio", "Poliforfismo - 01 - Inicio.vcxproj", "{149E0EED-87CA-4610-9E28-27D60B0E6074}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Formas Geométricas - 01 - Inicio", "Formas Geométricas - 01 - Inicio.vcxproj", "{149E0EED-87CA-4610-9E28-27D60B0E6074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
