@@ -4,16 +4,12 @@
 
 int main()
 {
+	Ciclo c4(3, 11, 3);
+	c4.Adicionar(12);
+	std::cout << std::endl << "Atual: " << c4.GetAtual();
 
-	Ciclo c1(1, 10);
-
-	std::cout << std::endl << "Atual: " << c1.GetAtual();
-
-	c1.Adicionar(5);
-	std::cout << std::endl << "Atual: " << c1.GetAtual();
-
-	c1.Adicionar(5);
-	std::cout << std::endl << "Atual: " << c1.GetAtual();
+	c4.Adicionar(32);
+	std::cout << std::endl << "Atual: " << c4.GetAtual();
 
 	return 0;
 }

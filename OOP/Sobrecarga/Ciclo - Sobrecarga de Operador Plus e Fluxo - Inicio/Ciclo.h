@@ -12,6 +12,6 @@ public:
 		  unsigned int atual);
 
 	void Adicionar(unsigned int valor);
-	unsigned int GetAtual();
+	unsigned int Ciclo::GetAtual() const;
 };
 
