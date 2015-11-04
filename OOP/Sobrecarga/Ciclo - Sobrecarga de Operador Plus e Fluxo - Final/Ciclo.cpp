@@ -18,10 +18,18 @@ unsigned int Ciclo::GetAtual() const
 /// note: A função a seguir não é um membro da classe Ciclo
 Ciclo operator+(const Ciclo& p1, const unsigned int p2)
 {
-	unsigned int novo = p1.m_atual + p2;
+	auto novo = p1.m_atual + p2;
 
 	if (novo > p1.m_maximo)
-		novo = p1.m_minimo + (novo - p1.m_maximo);
+	{
+		auto tmp = novo - p1.m_maximo;
+		int qtde = p1.m_maximo - p1.m_minimo + 1;
+		tmp = tmp % qtde;
+		tmp = tmp == 0 ? qtde : tmp;
+		tmp -= 1;
+		tmp += p1.m_minimo;
+		novo = tmp;
+	}
 
 	Ciclo c1(p1.m_minimo, p1.m_maximo, novo);
 

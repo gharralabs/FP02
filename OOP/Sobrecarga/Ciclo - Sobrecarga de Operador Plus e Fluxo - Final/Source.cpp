@@ -4,7 +4,7 @@
 
 int main()
 {
-	Ciclo c1(1, 10, 1);
+	Ciclo c1(3, 10, 3);
 
 	std::cout << std::endl << "Atual: " << c1;
 
