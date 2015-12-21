@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01. Escrever String no Arquivo - fputc", "01. Escrever String no Arquivo - fputc\01. Escrever String no Arquivo - fputc.vcxproj", "{5F4FC75E-464B-4048-B1B3-BB575A79F5F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02. Ler String do Arquivo - fgetc", "02. Ler String do Arquivo - fgetc\02. Ler String do Arquivo - fgetc.vcxproj", "{74A07556-4005-4BF1-8024-0789F7FC7CA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03. EOF", "03. EOF\03. EOF.vcxproj", "{BB7C3D22-2EB5-470E-9632-5092B7694462}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04. Escrever String no Arquivo - fputs", "04. Escrever String no Arquivo - fputs\04. Escrever String no Arquivo - fputs.vcxproj", "{1D0303DB-EBB8-4660-9A9C-D25D2DA3B831}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05. Escrever String no Arquivo - fgets", "05. Escrever String no Arquivo - fgets\05. Escrever String no Arquivo - fgets.vcxproj", "{C1BF92C7-D3CE-4160-9448-A5513E80E4B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06. Escrevendo formatado - fprintf", "06. Escrevendo formatado - fprintf\06. Escrevendo formatado - fprintf.vcxproj", "{906C761B-6537-40E7-BE62-7741383B51DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07. Ler formatado - fscanf", "07. Ler formatado - fscanf\07. Ler formatado - fscanf.vcxproj", "{EFE91D5A-A114-4BC1-80D2-2EA27D9F4B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4FC75E-464B-4048-B1B3-BB575A79F5F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F4FC75E-464B-4048-B1B3-BB575A79F5F1}.Debug|Win32.Build.0 = Debug|Win32
+		{5F4FC75E-464B-4048-B1B3-BB575A79F5F1}.Release|Win32.ActiveCfg = Release|Win32
+		{5F4FC75E-464B-4048-B1B3-BB575A79F5F1}.Release|Win32.Build.0 = Release|Win32
+		{74A07556-4005-4BF1-8024-0789F7FC7CA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74A07556-4005-4BF1-8024-0789F7FC7CA5}.Debug|Win32.Build.0 = Debug|Win32
+		{74A07556-4005-4BF1-8024-0789F7FC7CA5}.Release|Win32.ActiveCfg = Release|Win32
+		{74A07556-4005-4BF1-8024-0789F7FC7CA5}.Release|Win32.Build.0 = Release|Win32
+		{BB7C3D22-2EB5-470E-9632-5092B7694462}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB7C3D22-2EB5-470E-9632-5092B7694462}.Debug|Win32.Build.0 = Debug|Win32
+		{BB7C3D22-2EB5-470E-9632-5092B7694462}.Release|Win32.ActiveCfg = Release|Win32
+		{BB7C3D22-2EB5-470E-9632-5092B7694462}.Release|Win32.Build.0 = Release|Win32
+		{1D0303DB-EBB8-4660-9A9C-D25D2DA3B831}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D0303DB-EBB8-4660-9A9C-D25D2DA3B831}.Debug|Win32.Build.0 = Debug|Win32
+		{1D0303DB-EBB8-4660-9A9C-D25D2DA3B831}.Release|Win32.ActiveCfg = Release|Win32
+		{1D0303DB-EBB8-4660-9A9C-D25D2DA3B831}.Release|Win32.Build.0 = Release|Win32
+		{C1BF92C7-D3CE-4160-9448-A5513E80E4B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1BF92C7-D3CE-4160-9448-A5513E80E4B2}.Debug|Win32.Build.0 = Debug|Win32
+		{C1BF92C7-D3CE-4160-9448-A5513E80E4B2}.Release|Win32.ActiveCfg = Release|Win32
+		{C1BF92C7-D3CE-4160-9448-A5513E80E4B2}.Release|Win32.Build.0 = Release|Win32
+		{906C761B-6537-40E7-BE62-7741383B51DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{906C761B-6537-40E7-BE62-7741383B51DF}.Debug|Win32.Build.0 = Debug|Win32
+		{906C761B-6537-40E7-BE62-7741383B51DF}.Release|Win32.ActiveCfg = Release|Win32
+		{906C761B-6537-40E7-BE62-7741383B51DF}.Release|Win32.Build.0 = Release|Win32
+		{EFE91D5A-A114-4BC1-80D2-2EA27D9F4B86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFE91D5A-A114-4BC1-80D2-2EA27D9F4B86}.Debug|Win32.Build.0 = Debug|Win32
+		{EFE91D5A-A114-4BC1-80D2-2EA27D9F4B86}.Release|Win32.ActiveCfg = Release|Win32
+		{EFE91D5A-A114-4BC1-80D2-2EA27D9F4B86}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
